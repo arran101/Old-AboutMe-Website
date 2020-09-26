@@ -1,0 +1,267 @@
+/* Eric Meyer reset to get rid of the bloody browser defaults */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* this stuff is my actual css */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    overflow-x: hidden;
+    background-color: white;
+}
+#header{
+    background-color: #1d3557;
+    height: 60px;
+}
+.headerh{
+    color: rgb(202, 205, 206);
+    font-size: 50px;
+    padding-left: 20px;
+    font-weight: bolder;
+}
+span{
+    color: white;
+}
+.navbard{
+    overflow: hidden;
+    background-color: #1d3557;
+}
+.nav-item{
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.sticky + .content {
+    padding-top: 60px;
+  }
+.nav-item{
+    padding-right: 10px;
+}
+
+.jumbotron{
+    background-image: url(./pics/2007-08-23-the-road-goes-ever-on-&-on-mongolia-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;  
+}
+.hide{
+    display: none;
+}
+.display-4{
+    color:  #1d3557;
+}
+.display-4:hover+.hide{
+    display: block;
+    opacity: 0.2; 
+}
+.lead{
+    color: #1d3557;
+}
+ #mesec{
+    position: relative;
+    display: inline-block;
+    background-color: #1d3557;
+    height: 300px;
+    width: 100%;
+}
+.metotal{
+    position: flex;
+}
+.med{
+    height: 80px;
+    width: 400px;
+    padding-left: 100px;
+    padding-top:50px;
+}
+.meh{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.mesd{
+    position: flex;
+    width: 700px;
+    padding-left: 100px;
+    padding-top: 20px;
+    top:20px;
+    left:100px;
+}
+.mep{
+    font-size: 20px;
+    color: white;
+} 
+.mepicd{
+    position: absolute;
+    right:300px;
+    top: 10px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.meimg{
+    display: inline;
+    margin: 0 auto;
+}
+#hobbysec{
+    position: relative;
+}
+.hobbyd{
+    background-color: #1d3557;
+    position: relative;
+    height: auto;
+    border-style: solid;
+    border-width: 35px 0px 0px 0px;
+    border-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+   
+}
+#hobbyh{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-left: 100px;
+}
+.hobbybtnlayout{
+    padding-top: 30px;
+    text-align: center;
+}
+.btn {
+    position: relative;
+    text-align: center;
+    width: 24%;
+    color: white;
+    font-size: 20px;
+}
+.row{
+    text-align: center;
+    width: auto;
+    position: relative;
+}
+.card{
+    display: inline-block;
+    position: relative;
+    background-color: #1d3557;
+    width: 1500px;
+    color: white;
+    font-size: 20px;
+    border-style: none;
+    padding-top: 40px;
+}
+.hobbycardp{
+    padding-top: 10px;
+}
+.hobbyimg{
+    height: 300px;
+    width: 450px;
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+}
+#picsec{
+    height: 700px;
+    width: auto;
+    background-color:#1d3557 ;
+    border-style: solid;
+    border-width: 35px 0px 0px 0px;
+    border-color: white;
+    padding-top: 40px;
+}
+.picdh{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-left: 100px;
+    padding-bottom: 40px;
+}
+.carouselPics{
+    height: 500px;
+    width: 750px;
+    position: relative;
+    text-align: center;
+}
+
+.carousel-inner{
+    height: 500px;
+    width: 750px;
+    text-align: center;
+    margin:auto;
+}
+.carousel-control-prev{
+    height: 500px;
+    width: 1200px;
+}
+.carousel-control-next{
+    height: 500px;
+    width: 1200px;
+}
+.carousel-item{
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    height: 500px;
+    width: 750px;
+    position: relative;
+    margin:auto;
+}   
+.nav{
+    position: absolute;
+    right: 0px;
+    top:10px;
+    background-color: grey;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
